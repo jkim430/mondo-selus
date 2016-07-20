@@ -1,0 +1,269 @@
+@media screen and (max-width:992px) {
+  .ellipse, .fade-image {
+    display: none;
+  }
+}
+
+.fa-bars {
+  padding-top: 10px;
+}
+
+.template {
+  font-family: Montserrat;
+  color: white;
+  font-size: 12px;
+}
+
+.aligner {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.block1 {
+  background-color: #091f45;
+  background: linear-gradient(#091f45 40%, black);
+  overflow: hidden;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.spacing {
+  padding: 40px 0;
+}
+
+.headphone-spacing {
+  padding: 40px 0;
+}
+
+.app-container {
+  width: 70%;
+  margin: auto;
+}
+
+.brand {
+  display: inline;
+  padding-left: 5px;
+}
+
+.light-blue {
+  color: #2b5da4;
+}
+
+.centered {
+  text-align: center;
+}
+
+.header {
+  margin: 60px 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.shadow {
+  box-shadow: 0px 0px 80px #041327;
+}
+
+.iphone-shadow {
+  box-shadow: 0px 0px 200px black;
+}
+
+.side-img {
+  width: 90%;
+  margin: 5%;
+  margin-top: 30px;
+}
+
+.selus-btn {
+  background-color: transparent;
+  border: 1px solid #2b5da4;
+  border-radius: 30px;
+  padding: 13px;
+  width: 150px;
+  color: white;
+  font-size: 11px;
+}
+
+.sound-bar {
+  background-color: #061931;
+  width: 10px;
+  margin: 2px;
+}
+
+.sound-waves {
+  padding-top: 90px;
+  background-image: url("../img/sound-waves.png");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.text {
+  line-height: 35px;
+  color: #64748b;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+.heading {
+  letter-spacing: 1px;
+  margin: 30px 0;
+}
+
+.iphone {
+  background-image: url("../img/iphone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
+.features {
+  margin-bottom: 90px;
+}
+
+.iphone-screen {
+  height: 358px;
+  margin-top: 72px;
+}
+
+.on-top {
+  z-index: 100;
+}
+
+.ellipse {
+  background-image: radial-gradient(ellipse, #071023 0%, #071023 27%, #091f45 37%, #08142d 38%, #08142d 48%, #091f45 55%, rgba(0,0,0,0) 56%);
+  margin: auto;
+  margin-top: -75px;
+  height: 120px;
+  width: 750px
+}
+
+.red {
+  color: #ff0002;
+}
+
+.transform {
+  transform: rotateZ(55deg) rotateX(-30deg) rotateY(35deg) translateX(-50px) translateY(-450px);
+}
+
+.transform-section {
+  height: 600px;
+}
+
+.breaker {
+  height: 50px;
+}
+
+.padding-25 {
+  padding: 0 25px !important;
+}
+
+.raised {
+  box-shadow: 30px 30px 50px black;
+  margin-left: -10px;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.testimony-bg {
+  background-image: url("../img/use-iphone.jpg");
+  background-position: center;
+  height: 400px;
+}
+
+.testimony {
+  background-color: rgba(3,16,37,0.97);
+  color: #64748b;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.testimony-content {
+  max-width: 750px;
+  margin: 50px auto;
+}
+
+.testimony-heading {
+  line-height: 35px;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.caption {
+  padding: 40px 0;
+  font-size: 11px;
+}
+
+.grey {
+  color: #64748b;
+}
+
+.blue {
+  color: #193761;
+}
+
+.fa-circle, .fa-circle-thin {
+  padding: 2px;
+}
+
+.fade-img {
+  margin-top: 80px;
+  height: 350px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fade-img-left {
+  background-image: -webkit-linear-gradient(left,
+      rgba(0,0,0,1) 0%,
+      rgba(0,0,0,0.8) 30%,
+      rgba(0,0,0,0.3) 100%
+    ), url("../img/left.jpeg");
+  transform: translateX(50px);
+}
+
+.fade-img-right {
+  background-image: -webkit-linear-gradient(left,
+      rgba(0,0,0,0.3) 0%,
+      rgba(0,0,0,0.8) 70%,
+      rgba(0,0,0,1) 100%
+    ), url("../img/right.jpeg");
+  transform: translateX(-50px);
+}
+
+.download {
+  padding: 60px 0;
+}
+
+.download-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.footer {
+  padding-bottom: 30px;
+  border-top: 1px solid #051121;
+  margin-top: 30px;
+}
